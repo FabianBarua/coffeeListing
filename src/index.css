@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .bg-vector {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -9999;
+        background: url('/vector.svg') no-repeat  right top;
+    }
+  }
+@font-face {
+    font-family: 'DM-REGULAR';
+    src:  url(../public/fonts/DMSans/DMSans_18pt-Regular.ttf);
+}
